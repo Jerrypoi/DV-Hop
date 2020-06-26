@@ -1,0 +1,13 @@
+在四组传感器网络数据中，每组数据的意义如下：
+
+【data1, data2与data3】：传感器网络在[-0.5,0.5]×[-0.5,0.5]的二维平面上(单位为km)；
+【data4】：传感器网络在[-0.5,0.5]×[-0.5,0.5]×[-0.5,0.5]的三维平面上(单位为km)；
+
+radio range表示无线电信范围，单位为km;
+
+anchor.mat：anchor的位置；
+netsa：anchor和sensor的连接网络矩阵；
+netss：sensor和sensor的连接网络矩阵；
+连接网络矩阵中，数值不为0表示他们之间无信号交互，数值不为0表示他们之间有信号交互，且该数值就是他们之间的距离；
+
+parameters of network.txt：无线传感器网络的环境参数，如radio range，sensors的数量，anchors的数量。

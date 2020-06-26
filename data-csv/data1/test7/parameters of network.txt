@@ -1,0 +1,3 @@
+radio range=0.4; 
+number of sensors=20; 
+number of anchors=4;
