@@ -20,6 +20,7 @@ class Node:
         self.path_to_anchor = dict()
         self.hop_size = inf
         self.actual_position = actual_position
+        self.neighbouring_anchor = 0
 
     def __str__(self) -> str:
         return str(self.node_type) + ", " + str(self.position)
